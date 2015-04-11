@@ -9,11 +9,35 @@
 /* Begin PBXBuildFile section */
 		816EF25C1AD8B9CE0086652D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816EF25B1AD8B9CE0086652D /* AppDelegate.swift */; };
 		816EF25F1AD8B9CE0086652D /* Bitcamp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 816EF25D1AD8B9CE0086652D /* Bitcamp.xcdatamodeld */; };
-		816EF2611AD8B9CE0086652D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816EF2601AD8B9CE0086652D /* ViewController.swift */; };
 		816EF2641AD8B9CE0086652D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816EF2621AD8B9CE0086652D /* Main.storyboard */; };
 		816EF2661AD8B9CE0086652D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816EF2651AD8B9CE0086652D /* Images.xcassets */; };
 		816EF2691AD8B9CE0086652D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 816EF2671AD8B9CE0086652D /* LaunchScreen.xib */; };
 		816EF2751AD8B9CE0086652D /* BitcampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816EF2741AD8B9CE0086652D /* BitcampTests.swift */; };
+		816EF27F1AD8D30D0086652D /* MasterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816EF27E1AD8D30D0086652D /* MasterController.swift */; };
+		816EF2811AD8D31C0086652D /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816EF2801AD8D31C0086652D /* DetailController.swift */; };
+		816EF2831AD8D39C0086652D /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816EF2821AD8D39C0086652D /* Observer.swift */; };
+		816EF2871AD8D6990086652D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816EF2861AD8D6990086652D /* ImageIO.framework */; };
+		816EF2891AD8D69F0086652D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816EF2881AD8D69F0086652D /* QuartzCore.framework */; };
+		816EF28B1AD8D6AB0086652D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816EF28A1AD8D6AB0086652D /* Foundation.framework */; };
+		816EF28D1AD8D6B30086652D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816EF28C1AD8D6B30086652D /* UIKit.framework */; };
+		816EF28F1AD8D6C10086652D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816EF28E1AD8D6C10086652D /* CoreGraphics.framework */; };
+		816EF2911AD8D6CB0086652D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816EF2901AD8D6CB0086652D /* CoreLocation.framework */; };
+		816EF2931AD8D6EC0086652D /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 816EF2921AD8D6EC0086652D /* libc++.dylib */; };
+		816EF2951AD8D6FB0086652D /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 816EF2941AD8D6FB0086652D /* libicucore.dylib */; };
+		816EF2971AD8D70A0086652D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 816EF2961AD8D70A0086652D /* libz.dylib */; };
+		816EF2991AD8D83F0086652D /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816EF2981AD8D83F0086652D /* Logger.swift */; };
+		816EF29D1AD8D9180086652D /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816EF29A1AD8D9180086652D /* TwitterKit.framework */; };
+		816EF29E1AD8D9180086652D /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 816EF29B1AD8D9180086652D /* TwitterKitResources.bundle */; };
+		816EF29F1AD8D9180086652D /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816EF29C1AD8D9180086652D /* Fabric.framework */; };
+		816EF2A11AD8D9790086652D /* imports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816EF2A01AD8D9790086652D /* imports.swift */; };
+		816EF2A81AD8DC8D0086652D /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816EF2A71AD8DC8D0086652D /* GoogleMaps.framework */; };
+		816EF2AA1AD8DCB00086652D /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 816EF2A91AD8DCB00086652D /* GoogleMaps.bundle */; };
+		816EF2AC1AD8DCBF0086652D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816EF2AB1AD8DCBF0086652D /* AVFoundation.framework */; };
+		816EF2AE1AD8DCC70086652D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816EF2AD1AD8DCC70086652D /* CoreData.framework */; };
+		816EF2B01AD8DCCF0086652D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816EF2AF1AD8DCCE0086652D /* CoreText.framework */; };
+		816EF2B21AD8DCD80086652D /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816EF2B11AD8DCD80086652D /* GLKit.framework */; };
+		816EF2B41AD8DCE40086652D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816EF2B31AD8DCE40086652D /* OpenGLES.framework */; };
+		816EF2B61AD8DCEE0086652D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816EF2B51AD8DCEE0086652D /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +55,38 @@
 		816EF25A1AD8B9CE0086652D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		816EF25B1AD8B9CE0086652D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		816EF25E1AD8B9CE0086652D /* Bitcamp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bitcamp.xcdatamodel; sourceTree = "<group>"; };
-		816EF2601AD8B9CE0086652D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		816EF2631AD8B9CE0086652D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		816EF2651AD8B9CE0086652D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		816EF2681AD8B9CE0086652D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		816EF26E1AD8B9CE0086652D /* BitcampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitcampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		816EF2731AD8B9CE0086652D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		816EF2741AD8B9CE0086652D /* BitcampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcampTests.swift; sourceTree = "<group>"; };
+		816EF27E1AD8D30D0086652D /* MasterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterController.swift; sourceTree = "<group>"; };
+		816EF2801AD8D31C0086652D /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		816EF2821AD8D39C0086652D /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		816EF2841AD8D46D0086652D /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		816EF2861AD8D6990086652D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		816EF2881AD8D69F0086652D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		816EF28A1AD8D6AB0086652D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		816EF28C1AD8D6B30086652D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		816EF28E1AD8D6C10086652D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		816EF2901AD8D6CB0086652D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		816EF2921AD8D6EC0086652D /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		816EF2941AD8D6FB0086652D /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		816EF2961AD8D70A0086652D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		816EF2981AD8D83F0086652D /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		816EF29A1AD8D9180086652D /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		816EF29B1AD8D9180086652D /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		816EF29C1AD8D9180086652D /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		816EF2A01AD8D9790086652D /* imports.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imports.swift; sourceTree = "<group>"; };
+		816EF2A71AD8DC8D0086652D /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		816EF2A91AD8DCB00086652D /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		816EF2AB1AD8DCBF0086652D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		816EF2AD1AD8DCC70086652D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		816EF2AF1AD8DCCE0086652D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		816EF2B11AD8DCD80086652D /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		816EF2B31AD8DCE40086652D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		816EF2B51AD8DCEE0086652D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +94,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				816EF2B61AD8DCEE0086652D /* SystemConfiguration.framework in Frameworks */,
+				816EF2B41AD8DCE40086652D /* OpenGLES.framework in Frameworks */,
+				816EF2B21AD8DCD80086652D /* GLKit.framework in Frameworks */,
+				816EF2B01AD8DCCF0086652D /* CoreText.framework in Frameworks */,
+				816EF2AE1AD8DCC70086652D /* CoreData.framework in Frameworks */,
+				816EF2AC1AD8DCBF0086652D /* AVFoundation.framework in Frameworks */,
+				816EF2971AD8D70A0086652D /* libz.dylib in Frameworks */,
+				816EF29D1AD8D9180086652D /* TwitterKit.framework in Frameworks */,
+				816EF2951AD8D6FB0086652D /* libicucore.dylib in Frameworks */,
+				816EF2931AD8D6EC0086652D /* libc++.dylib in Frameworks */,
+				816EF2911AD8D6CB0086652D /* CoreLocation.framework in Frameworks */,
+				816EF28F1AD8D6C10086652D /* CoreGraphics.framework in Frameworks */,
+				816EF2A81AD8DC8D0086652D /* GoogleMaps.framework in Frameworks */,
+				816EF28D1AD8D6B30086652D /* UIKit.framework in Frameworks */,
+				816EF28B1AD8D6AB0086652D /* Foundation.framework in Frameworks */,
+				816EF2891AD8D69F0086652D /* QuartzCore.framework in Frameworks */,
+				816EF2871AD8D6990086652D /* ImageIO.framework in Frameworks */,
+				816EF29F1AD8D9180086652D /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +128,9 @@
 		816EF24D1AD8B9CE0086652D = {
 			isa = PBXGroup;
 			children = (
+				816EF2A91AD8DCB00086652D /* GoogleMaps.bundle */,
+				816EF2A71AD8DC8D0086652D /* GoogleMaps.framework */,
+				816EF2A21AD8DA220086652D /* Frameworks */,
 				816EF2581AD8B9CE0086652D /* Bitcamp */,
 				816EF2711AD8B9CE0086652D /* BitcampTests */,
 				816EF2571AD8B9CE0086652D /* Products */,
@@ -79,13 +149,17 @@
 		816EF2581AD8B9CE0086652D /* Bitcamp */ = {
 			isa = PBXGroup;
 			children = (
+				816EF2A61AD8DA540086652D /* Models */,
+				816EF2A31AD8DA390086652D /* Controllers */,
 				816EF25B1AD8B9CE0086652D /* AppDelegate.swift */,
-				816EF2601AD8B9CE0086652D /* ViewController.swift */,
 				816EF2621AD8B9CE0086652D /* Main.storyboard */,
 				816EF2651AD8B9CE0086652D /* Images.xcassets */,
 				816EF2671AD8B9CE0086652D /* LaunchScreen.xib */,
 				816EF25D1AD8B9CE0086652D /* Bitcamp.xcdatamodeld */,
 				816EF2591AD8B9CE0086652D /* Supporting Files */,
+				816EF2841AD8D46D0086652D /* Bridging-Header.h */,
+				816EF2981AD8D83F0086652D /* Logger.swift */,
+				816EF2A01AD8D9790086652D /* imports.swift */,
 			);
 			path = Bitcamp;
 			sourceTree = "<group>";
@@ -115,6 +189,48 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		816EF2A21AD8DA220086652D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				816EF2B51AD8DCEE0086652D /* SystemConfiguration.framework */,
+				816EF2B31AD8DCE40086652D /* OpenGLES.framework */,
+				816EF2B11AD8DCD80086652D /* GLKit.framework */,
+				816EF2AF1AD8DCCE0086652D /* CoreText.framework */,
+				816EF2AD1AD8DCC70086652D /* CoreData.framework */,
+				816EF2AB1AD8DCBF0086652D /* AVFoundation.framework */,
+				816EF29A1AD8D9180086652D /* TwitterKit.framework */,
+				816EF29B1AD8D9180086652D /* TwitterKitResources.bundle */,
+				816EF29C1AD8D9180086652D /* Fabric.framework */,
+				816EF2961AD8D70A0086652D /* libz.dylib */,
+				816EF2941AD8D6FB0086652D /* libicucore.dylib */,
+				816EF2921AD8D6EC0086652D /* libc++.dylib */,
+				816EF2901AD8D6CB0086652D /* CoreLocation.framework */,
+				816EF28E1AD8D6C10086652D /* CoreGraphics.framework */,
+				816EF28C1AD8D6B30086652D /* UIKit.framework */,
+				816EF28A1AD8D6AB0086652D /* Foundation.framework */,
+				816EF2881AD8D69F0086652D /* QuartzCore.framework */,
+				816EF2861AD8D6990086652D /* ImageIO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		816EF2A31AD8DA390086652D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				816EF27E1AD8D30D0086652D /* MasterController.swift */,
+				816EF2801AD8D31C0086652D /* DetailController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		816EF2A61AD8DA540086652D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				816EF2821AD8D39C0086652D /* Observer.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,6 +241,7 @@
 				816EF2521AD8B9CE0086652D /* Sources */,
 				816EF2531AD8B9CE0086652D /* Frameworks */,
 				816EF2541AD8B9CE0086652D /* Resources */,
+				816EF2851AD8D6130086652D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -195,9 +312,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				816EF29E1AD8D9180086652D /* TwitterKitResources.bundle in Resources */,
 				816EF2641AD8B9CE0086652D /* Main.storyboard in Resources */,
 				816EF2691AD8B9CE0086652D /* LaunchScreen.xib in Resources */,
 				816EF2661AD8B9CE0086652D /* Images.xcassets in Resources */,
+				816EF2AA1AD8DCB00086652D /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,12 +329,32 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		816EF2851AD8D6130086652D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 8363f16d2afe1dec9889fef4f883e81e8b02fcdd ae2faa899b33298c1edbc623ab7b3248fa6fbdec53145259c257ec76565dc081";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		816EF2521AD8B9CE0086652D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				816EF2611AD8B9CE0086652D /* ViewController.swift in Sources */,
+				816EF2811AD8D31C0086652D /* DetailController.swift in Sources */,
+				816EF2A11AD8D9790086652D /* imports.swift in Sources */,
+				816EF2991AD8D83F0086652D /* Logger.swift in Sources */,
+				816EF2831AD8D39C0086652D /* Observer.swift in Sources */,
+				816EF27F1AD8D30D0086652D /* MasterController.swift in Sources */,
 				816EF25F1AD8B9CE0086652D /* Bitcamp.xcdatamodeld in Sources */,
 				816EF25C1AD8B9CE0086652D /* AppDelegate.swift in Sources */,
 			);
@@ -296,6 +435,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -331,6 +471,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -340,9 +481,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Bitcamp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bitcamp/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -350,9 +496,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Bitcamp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bitcamp/Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +560,7 @@
 				816EF27A1AD8B9CE0086652D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		816EF27B1AD8B9CE0086652D /* Build configuration list for PBXNativeTarget "BitcampTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +569,7 @@
 				816EF27D1AD8B9CE0086652D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

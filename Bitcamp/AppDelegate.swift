@@ -9,14 +9,22 @@
 import UIKit
 import CoreData
 
+import Foundation
+import Fabric
+import TwitterKit
+import UIKit
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    private let googleMapsKey = "AIzaSyBzNl87IIyhWgjGi5GjbtsSFyW2LFP_B2c"
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        GMSServices.provideAPIKey(googleMapsKey)
+        Fabric.with([Twitter()])
         return true
     }
 
