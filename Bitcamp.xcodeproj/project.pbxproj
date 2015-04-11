@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		816EF25C1AD8B9CE0086652D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816EF25B1AD8B9CE0086652D /* AppDelegate.swift */; };
 		816EF25F1AD8B9CE0086652D /* Bitcamp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 816EF25D1AD8B9CE0086652D /* Bitcamp.xcdatamodeld */; };
-		816EF2641AD8B9CE0086652D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816EF2621AD8B9CE0086652D /* Main.storyboard */; };
+		816EF2641AD8B9CE0086652D /* App.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816EF2621AD8B9CE0086652D /* App.storyboard */; };
 		816EF2661AD8B9CE0086652D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816EF2651AD8B9CE0086652D /* Images.xcassets */; };
 		816EF2691AD8B9CE0086652D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 816EF2671AD8B9CE0086652D /* LaunchScreen.xib */; };
 		816EF2751AD8B9CE0086652D /* BitcampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816EF2741AD8B9CE0086652D /* BitcampTests.swift */; };
@@ -38,6 +38,9 @@
 		816EF2B21AD8DCD80086652D /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816EF2B11AD8DCD80086652D /* GLKit.framework */; };
 		816EF2B41AD8DCE40086652D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816EF2B31AD8DCE40086652D /* OpenGLES.framework */; };
 		816EF2B61AD8DCEE0086652D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816EF2B51AD8DCEE0086652D /* SystemConfiguration.framework */; };
+		81B5F0551AD94CA1006C2F11 /* LoginPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B5F0541AD94CA1006C2F11 /* LoginPageController.swift */; };
+		81B5F0571AD94E11006C2F11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B5F0561AD94E11006C2F11 /* Main.storyboard */; };
+		81B5F05C1AD94EC3006C2F11 /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B5F05B1AD94EC3006C2F11 /* MapModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +58,7 @@
 		816EF25A1AD8B9CE0086652D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		816EF25B1AD8B9CE0086652D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		816EF25E1AD8B9CE0086652D /* Bitcamp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bitcamp.xcdatamodel; sourceTree = "<group>"; };
-		816EF2631AD8B9CE0086652D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		816EF2631AD8B9CE0086652D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/App.storyboard; sourceTree = "<group>"; };
 		816EF2651AD8B9CE0086652D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		816EF2681AD8B9CE0086652D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		816EF26E1AD8B9CE0086652D /* BitcampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitcampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +90,9 @@
 		816EF2B11AD8DCD80086652D /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		816EF2B31AD8DCE40086652D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		816EF2B51AD8DCEE0086652D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		81B5F0541AD94CA1006C2F11 /* LoginPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPageController.swift; sourceTree = "<group>"; };
+		81B5F0561AD94E11006C2F11 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		81B5F05B1AD94EC3006C2F11 /* MapModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,8 +134,6 @@
 		816EF24D1AD8B9CE0086652D = {
 			isa = PBXGroup;
 			children = (
-				816EF2A91AD8DCB00086652D /* GoogleMaps.bundle */,
-				816EF2A71AD8DC8D0086652D /* GoogleMaps.framework */,
 				816EF2A21AD8DA220086652D /* Frameworks */,
 				816EF2581AD8B9CE0086652D /* Bitcamp */,
 				816EF2711AD8B9CE0086652D /* BitcampTests */,
@@ -149,10 +153,11 @@
 		816EF2581AD8B9CE0086652D /* Bitcamp */ = {
 			isa = PBXGroup;
 			children = (
+				81B5F0611AD954CF006C2F11 /* Delegates */,
+				81B5F0581AD94E41006C2F11 /* Views */,
 				816EF2A61AD8DA540086652D /* Models */,
 				816EF2A31AD8DA390086652D /* Controllers */,
 				816EF25B1AD8B9CE0086652D /* AppDelegate.swift */,
-				816EF2621AD8B9CE0086652D /* Main.storyboard */,
 				816EF2651AD8B9CE0086652D /* Images.xcassets */,
 				816EF2671AD8B9CE0086652D /* LaunchScreen.xib */,
 				816EF25D1AD8B9CE0086652D /* Bitcamp.xcdatamodeld */,
@@ -192,6 +197,8 @@
 		816EF2A21AD8DA220086652D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				816EF2A91AD8DCB00086652D /* GoogleMaps.bundle */,
+				816EF2A71AD8DC8D0086652D /* GoogleMaps.framework */,
 				816EF2B51AD8DCEE0086652D /* SystemConfiguration.framework */,
 				816EF2B31AD8DCE40086652D /* OpenGLES.framework */,
 				816EF2B11AD8DCD80086652D /* GLKit.framework */,
@@ -219,6 +226,7 @@
 			children = (
 				816EF27E1AD8D30D0086652D /* MasterController.swift */,
 				816EF2801AD8D31C0086652D /* DetailController.swift */,
+				81B5F0541AD94CA1006C2F11 /* LoginPageController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -227,8 +235,25 @@
 			isa = PBXGroup;
 			children = (
 				816EF2821AD8D39C0086652D /* Observer.swift */,
+				81B5F05B1AD94EC3006C2F11 /* MapModel.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		81B5F0581AD94E41006C2F11 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				816EF2621AD8B9CE0086652D /* App.storyboard */,
+				81B5F0561AD94E11006C2F11 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		81B5F0611AD954CF006C2F11 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,7 +338,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				816EF29E1AD8D9180086652D /* TwitterKitResources.bundle in Resources */,
-				816EF2641AD8B9CE0086652D /* Main.storyboard in Resources */,
+				816EF2641AD8B9CE0086652D /* App.storyboard in Resources */,
+				81B5F0571AD94E11006C2F11 /* Main.storyboard in Resources */,
 				816EF2691AD8B9CE0086652D /* LaunchScreen.xib in Resources */,
 				816EF2661AD8B9CE0086652D /* Images.xcassets in Resources */,
 				816EF2AA1AD8DCB00086652D /* GoogleMaps.bundle in Resources */,
@@ -351,11 +377,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				816EF2811AD8D31C0086652D /* DetailController.swift in Sources */,
+				81B5F05C1AD94EC3006C2F11 /* MapModel.swift in Sources */,
 				816EF2A11AD8D9790086652D /* imports.swift in Sources */,
 				816EF2991AD8D83F0086652D /* Logger.swift in Sources */,
 				816EF2831AD8D39C0086652D /* Observer.swift in Sources */,
 				816EF27F1AD8D30D0086652D /* MasterController.swift in Sources */,
 				816EF25F1AD8B9CE0086652D /* Bitcamp.xcdatamodeld in Sources */,
+				81B5F0551AD94CA1006C2F11 /* LoginPageController.swift in Sources */,
 				816EF25C1AD8B9CE0086652D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,12 +407,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		816EF2621AD8B9CE0086652D /* Main.storyboard */ = {
+		816EF2621AD8B9CE0086652D /* App.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				816EF2631AD8B9CE0086652D /* Base */,
 			);
-			name = Main.storyboard;
+			name = App.storyboard;
 			sourceTree = "<group>";
 		};
 		816EF2671AD8B9CE0086652D /* LaunchScreen.xib */ = {
