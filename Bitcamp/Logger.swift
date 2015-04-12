@@ -7,15 +7,11 @@
 //
 
 import Foundation
-
+import UIKit
 
 class Logger {
     
     class func log(tag: String, message: String) {
-        var spaces: String = ""
-        for index in 0...(50 - tag.utf16Count) {
-            spaces += " "
-        }
-        println("\(tag):\(spaces)\t\(message)")
+        println("\(tag):\t\t\(message)")
     }
 }

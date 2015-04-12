@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FFCCBAA6-52F6-4901-9F7C-F729C63FFD7D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Bitcamp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0C0F4722635873B0AB14BD2148370EF7F377C5A4</key>
+		<string>https://github.com/murrayds/Bitcamp.git</string>
+		<key>214F1D7D5B26F4C1A88D9FA54625702A07D713DA</key>
+		<string>https://github.com/murrayds/Bitcamp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Bitcamp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0C0F4722635873B0AB14BD2148370EF7F377C5A4</key>
+		<string>../..</string>
+		<key>214F1D7D5B26F4C1A88D9FA54625702A07D713DA</key>
+		<string>../..Bitcamp/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/murrayds/Bitcamp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0C0F4722635873B0AB14BD2148370EF7F377C5A4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>214F1D7D5B26F4C1A88D9FA54625702A07D713DA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Bitcamp</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0C0F4722635873B0AB14BD2148370EF7F377C5A4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WhatsUp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

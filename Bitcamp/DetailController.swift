@@ -28,16 +28,7 @@ class DetailController: UIViewController {
         Logger.log(TAG, message: "\(__FUNCTION__)")
         super.viewDidLoad()
         
-        
-        var backButton = UIBarButtonItem(
-            title: "Events",
-            style: UIBarButtonItemStyle.Bordered,
-            target: self,
-            action: "openEvents:")
-        
-        
-        navigationItem.leftBarButtonItem = backButton
-        
+        navigationItem.title = "Map"
         var camera = GMSCameraPosition.cameraWithLatitude(START_LAT,
             longitude: START_LONG, zoom: 15)
         
@@ -55,8 +46,9 @@ class DetailController: UIViewController {
     */
     func openEvents(sender: UIBarButtonItem) {
         Logger.log(TAG, message: "\(__FUNCTION__)")
-        splitViewController?.preferredDisplayMode = UISplitViewControllerDisplayMode.AllVisible
+
     }
+    
     
     /**
     

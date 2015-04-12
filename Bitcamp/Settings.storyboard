@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Mvu-7R-KoS">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Settings Controller-->
+        <scene sceneID="ssq-VG-Xza">
+            <objects>
+                <viewController id="Mvu-7R-KoS" customClass="SettingsController" customModule="Bitcamp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JnS-Ay-GVe"/>
+                        <viewControllerLayoutGuide type="bottom" id="TR7-LN-CJU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1PM-zg-dYr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgl-gP-fny">
+                                <rect key="frame" x="137" y="319" width="100" height="30"/>
+                                <state key="normal" title="Reset Choices">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetPressed:" destination="Mvu-7R-KoS" eventType="touchUpInside" id="wvN-yM-DVR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="bgl-gP-fny" firstAttribute="top" secondItem="JnS-Ay-GVe" secondAttribute="bottom" constant="299" id="LjU-Tr-WBb"/>
+                            <constraint firstItem="bgl-gP-fny" firstAttribute="centerX" secondItem="1PM-zg-dYr" secondAttribute="centerX" id="P2g-nm-kBg"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3WH-Db-U4P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="228" y="257"/>
+        </scene>
+    </scenes>
+</document>
